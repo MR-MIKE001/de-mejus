@@ -1,0 +1,149 @@
+.aboutsec{
+    padding: 1rem 2.5rem;
+}
+.named{
+    position: absolute;
+    top: 17rem;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2f2f2f;
+    text-shadow: 1px 1px white;
+    -webkit-text-stroke-width: 2px;
+}
+.named>h1{
+    font-size: medium;
+}
+.named>h3{
+    font-weight: bold;
+}
+ .aboutdiv{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+ }
+
+ .about>.aboutdiv>img{
+    width: 20rem;
+    height: 20rem;
+ }
+ .about3>.aboutdiv>img{
+    width: 20rem;
+    height: 20rem;
+ }
+.about3{
+    display: none;
+    
+}
+.about{
+    display: flex;
+}
+.about2{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.about2>.aboutdiv>img{
+    width: 20rem;
+    height: 20rem;
+ }
+
+.about>p{
+    padding-left: 1rem;
+}
+.about2>p{
+    padding-right: 1rem;
+}
+
+
+
+@media(max-width:500px){
+    .named>h1{
+        margin-left: -4rem;
+        font-size: small;
+        
+    }
+    .named>h3{
+        font-weight: 300;
+        font-size: large;
+    }   
+    .named{
+        position: absolute;
+        top: 17rem;
+        left: 3rem;
+        
+    }
+    .aboutdiv{
+        width: 20rem;
+        margin-left: -0.5rem;
+        height: 20rem;
+        position: relative;
+     }  
+
+    .about3>.aboutdiv>.named{
+           font-weight: 50;
+            position: absolute;
+            top: 16rem;
+            left: 3rem;
+        
+    }
+    .aboutdiv{
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 5.5rem;
+     }
+    .about2{
+        display: none;
+        
+        }
+
+
+        .about>.aboutdiv>img{
+            width: 15rem;
+            height: 20rem;
+         }
+         .about3>.aboutdiv>img{
+            width: 15rem;
+            height: 20rem;
+         }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .about>p{
+        margin-left: -1.5rem;
+        margin-top: 0.4rem;
+    }
+    
+    .about3{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about3>img{
+       width: 300px;
+       height: 300px;
+       margin-left: -0.5rem;
+    }
+    
+    .about3{
+        display: flex;
+        flex-direction: column;
+    }
+    .about3{
+        padding-top: 1rem;
+        
+    }
+    
+    .about3>p{
+        margin-left: -0.5rem;
+        margin-top: 0.4rem;
+    }
+    
+}
+

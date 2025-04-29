@@ -1,0 +1,148 @@
+.card{
+    display: flex;
+    position: relative;
+    border-radius: 10%;
+    width: 405px;
+    height: 400px;
+    
+}
+.card>img{
+    width: 405px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+
+.card>div{
+    position: absolute;
+    border-radius: 10%;
+    display: flex;
+    color: var(--primary);
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 50%;
+    width: 405px;
+    height: 400px;
+    transition: 1s;
+}
+.card>div>h1{
+font-size: 40px;
+font-weight: bold;
+text-shadow: 15px 0px 15px 1115px var(black);
+  
+}
+.card>div:hover{
+    position: absolute;
+    background-color: var(--primary);
+    border-radius: 10%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+    width: 405px;
+    height: 400px;
+    
+}
+.card>.button2{
+ position: absolute;
+ top:18rem;
+ left: 15rem;
+ opacity: 50%;
+ border-radius: 5px;
+}
+@media(max-width:1085){
+    .card>img{
+        margin-top: 10px;
+        width: 10px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10%;
+    }
+    
+    
+    .card>div{
+        
+        position: absolute;
+        border-radius: 10%;
+        display: flex;
+        color: var(--primary);
+        justify-content: center;
+        align-items: flex-end;
+        opacity: 50%;
+        width: 200px;
+        height: 300px;
+        transition: 1s;
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        margin-bottom: 1rem;
+        
+        display: flex;
+        position: relative;
+        border-radius: 10%;
+        width: 100%;
+        height: 300px;
+       margin-left: 2rem;
+        
+    }
+    .card>img{
+        margin-top: 10px;
+        margin-left: -0.8rem;
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10%;
+    }
+    
+    
+    .card>div{
+        margin-left: -0.8rem;
+        position: absolute;
+        border-radius: 10%;
+        display: flex;
+        color: var(--primary);
+        justify-content: center;
+        align-items: flex-end;
+        opacity: 50%;
+        width: 300px;
+        height: 300px;
+        transition: 1s;
+    }
+    .card>div>h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 15px 0px 15px 1115px var(black);
+      
+    }
+    .card>div:hover{
+        position: absolute;
+        margin-top: 10px;
+        background-color:var(--primary);
+        border-radius: 10%;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 50%;
+        width: 300px;
+        height: 300px;
+        
+    }
+    .card>.button2{
+     position: absolute;
+     top:18rem;
+     left: 15rem;
+     opacity: 50%;
+     border-radius: 5px;
+    }   
+    .card>.button2{
+        display: none;
+    }
+}

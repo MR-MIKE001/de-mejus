@@ -1,0 +1,38 @@
+.club2{
+       padding: 1rem 2.5rem;
+      background-color: white;
+    }
+
+.car2{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+}
+.head2>h1{
+   font-weight: bold;
+   font-size: 40px;
+   color:var(--primary);
+   padding-bottom: 0.5rem;
+}
+
+@media(max-width:500px){
+    
+    .car2{
+        
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+       
+        
+    }   
+    .club2{
+        padding: 0.5rem 1rem;
+       background-color:white;
+     }
+}

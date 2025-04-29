@@ -1,0 +1,104 @@
+.header{
+    background-image: url("../../img/bgd.jpg");
+    height: 700px;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 80%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+   
+  
+}
+.content>p{
+    font-size: 15px;
+    padding-top: 0.5rem;
+
+}
+.content>h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3rem 3rem black;
+}
+.hbutton{
+    margin-top: 1rem;
+}
+
+@media(max-width:1000px){
+    .header{
+        background-image: url("../../img/bgd.jpg");
+        height: 700px;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        opacity: 80%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+       
+      
+    }
+    .content>p{
+        font-size: 15px;
+        width: 500px;
+        margin-left: 2rem;
+        padding-top: 0.5rem;
+    
+    }
+    .content>h1{
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 0px 0px 3rem 3rem black;
+    }
+    .hbutton{
+        margin-top: 1rem;
+    }
+}
+@media(max-width:500px){
+    .header{
+        background-image: url("../../img/bgd.jpg");
+        height: 500px;
+        background-size: cover;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        opacity: 80%;
+        padding: 0rem;
+    }
+    
+    .content{
+       
+        color: white;
+        width: 200px;
+       
+        
+        
+    }
+    .content>p{
+        font-size: 12px;
+        width: 280px;
+        padding-top: 0.5rem;
+    }
+    .content>h1{
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 0px 0px 3rem 3rem black;
+    }
+    .hbutton{
+        margin-left: -4rem;
+        margin-top: 1rem;
+    }
+
+}

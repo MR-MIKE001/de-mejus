@@ -1,0 +1,138 @@
+.contact{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.it{
+    color: var(--primary);
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+}
+.awesome>span{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 50px;
+    width: 500px;
+}
+form{
+    border: 5px solid var(--primary);
+    border-radius: 30px;
+    margin-right: 8rem;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+form>*{
+    border-radius: 20px ;
+    border: 2px solid var(--primary);
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.4rem;
+    
+}
+
+form>input{
+    height: 1.5rem;
+    border-radius: 20px;
+}
+form>textarea{
+    border-radius: 30px ;
+    border: 2px solid var(--primary);
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+form>button{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width:500px){
+    .contact{
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    
+    }
+    
+    .awesome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        margin-left: 5rem;
+    }
+    .awesome>span{
+        display: flex;
+        flex-direction: column;
+        
+        font-weight: bold;
+        font-size: 30px;
+        width: 300px;
+    }
+    form{
+        border: 3px solid var(--primary);
+        border-radius: 30px;
+        margin-top: 1rem;
+        margin-left: -2rem;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    form>*{
+        border-radius: 20px ;
+        border: 2px solid var(--primary);
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.4rem;
+        
+    }
+    .it{
+        margin-left: 1rem;
+    }
+    input{
+      padding-inline: 10px;  
+        
+    }
+    form>input{
+        height: 1.5rem;
+        border-radius: 20px;
+    }
+    
+    form>textarea{
+        border-radius: 30px ;
+        border: 2px solid var(--primary);
+        width: 320px;
+        padding-inline: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+    }
+    form>button{
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+    .c-right{
+        margin-left: 3rem;
+        
+    }
+    
+    
+}
