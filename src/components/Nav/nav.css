@@ -8,6 +8,7 @@
     display: flex;
 }
 .nright>ul{
+    margin-left: 26rem;
     display: flex;
     justify-content: space-between;
 }
@@ -16,6 +17,7 @@
    list-style: none;
    transition: 0.002s;
    color: white;
+  
 }
 .nright>ul>*:hover{
     color: var(--primary);
@@ -31,29 +33,27 @@
     display: none;
 }
 @media (max-width:854px) {
-    .nright{
-        position: absolute;
-        margin-top: -1rem;
-        margin-left: 32rem;
-        
-       
-       background-color: rgb(1, 1, 24);
-
-       
+    .nleft{
+        margin-left: -3rem;
     }
+    .nleft>img{
+        width: 200px;
+    }
+   
     .nav{
         padding: 1rem 3.5rem;
     }
     .nright>ul{
+        margin-left: 4rem;
         margin-top: 2rem;
         display: flex;
-        flex-direction: column;
+       
         justify-content: space-between;
 
     }
     .menu{
         display: block;
-        margin-right:0;
+        margin-right: -13rem;
         color:rgb(1, 1, 24) ;
         margin-top: 0.3rem;
         padding:0 1px;
@@ -68,16 +68,18 @@
         height: 40px;
     }
 }
+
 @media (max-width:500px) {
     .nright{
         position: absolute;
         margin-top: -1rem;
-        margin-left: 10rem;
+        margin-left: 14.2rem;
        
        background-color: rgb(1, 1, 24);
 
        
     }
+    
     .nright>ul{
         margin-top: 2rem;
         display: flex;
@@ -92,17 +94,33 @@
     }  
     .menu{
         display: block;
-        margin-right: -2rem;
+        margin-right: -14.5rem;
         margin-top: 0.3rem;
         padding:0 1px;
+        height: 45px;
+        background-color: rgb(124, 119, 119);
         visibility: visible;
         
     } 
     .menu2{
         display: block;
-        margin-right: -2rem;
+        margin-right: 0rem;
         margin-top: 0.3rem;
         padding:0 1px;
         height: 40px;
     }
+}
+@media (max-width:400px){
+    .nright{
+        position: absolute;
+        margin-top: -1rem;
+        margin-left: 9rem;
+       
+       background-color: rgb(1, 1, 24);
+
+       
+    }   
+    .menu{
+        display: block;
+        margin-right: -10rem;}
 }

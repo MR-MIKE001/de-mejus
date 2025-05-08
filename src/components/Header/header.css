@@ -1,16 +1,31 @@
 .header{
-    background-image: url("../../img/bgd.jpg");
-    height: 700px;
+   position: relative;
+    height: 600px;
+    
+}
+.headerc{
+   position: absolute;
+    height: 600px;
     background-position: bottom;
     background-size: cover;
-    opacity: 80%;
+    
 }
-.content{
+.bcimg{
+    position: absolute;
+    opacity: 80%;
+    width: 100%;
+    height: 600px;
+}
+.bcimg>img{
+    height: 600px;
+}
+
+.headerc>.content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    margin-left: 2.5rem;
     margin-right: auto;
     color: white;
    
@@ -19,6 +34,7 @@
 .content>p{
     font-size: 15px;
     padding-top: 0.5rem;
+    width: 70%;
 
 }
 .content>h1{
@@ -32,13 +48,27 @@
 
 @media(max-width:1000px){
     .header{
-        background-image: url("../../img/bgd.jpg");
-        height: 700px;
-        width: 100%;
-        background-position: bottom;
-        background-size: cover;
-        opacity: 80%;
-    }
+        position: relative;
+         height: 500px;
+         
+     }
+     .headerc{
+        position: absolute;
+         height: 500px;
+         background-position: bottom;
+         background-size: cover;
+         
+     }
+     .bcimg>img{
+        height: 500px;
+     }
+     .bcimg{
+         position: absolute;
+         opacity: 80%;
+         width: 100%;
+         height: 500px;
+     }
+     
     .content{
         display: flex;
         flex-direction: column;
@@ -68,7 +98,7 @@
 }
 @media(max-width:500px){
     .header{
-        background-image: url("../../img/bgd.jpg");
+      
         height: 500px;
         background-size: cover;
         width: 100%;
