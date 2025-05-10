@@ -1,11 +1,11 @@
 import React from 'react'
-
+import './google.css'
 function Google() {
 
   return (<div className='googlemap'>
   <h1 className='location'>Address</h1>
-    <div style={{position:'relative'}}>
-    <div style={{overflow: "hidden",position: "relative",paddingBottom: "75%", height: 0 }}>
+    <div  style={{position:'relative'}}>
+    <div className='iframe' style={{overflow: "hidden",position: "relative",paddingBottom: "75%",  }}>
     <iframe title='demejus academy ' style={{position: "absolute", top: 0,left: 0, width: "100%", height: "100%", border:0}}  loading="lazy" src="https://maps.google.com/maps?q=Power+Line+Junction%2C+Dutse-Abuja&output=embed">
 
     </iframe></div>
