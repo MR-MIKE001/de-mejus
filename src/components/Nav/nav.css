@@ -118,6 +118,21 @@
         height: 40px;
     }
 }
+@media(max-width:430px){
+    .menu{
+        display: block;
+        margin-right: -10rem;} 
+        .nright{
+            position: absolute;
+            margin-top: -1rem;
+            margin-left: 9rem;
+           
+           background-color: rgb(1, 1, 24);
+    
+           
+        }   
+
+}
 @media (max-width:400px){
     .nright{
         position: absolute;
