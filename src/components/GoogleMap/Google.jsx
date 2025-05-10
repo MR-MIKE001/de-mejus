@@ -6,7 +6,7 @@ function Google() {
   <h1 className='location'>Address</h1>
     <div style={{position:'relative'}}>
     <div style={{overflow: "hidden",position: "relative",paddingBottom: "75%", height: 0 }}>
-    <iframe title='demejus academy ' style={{position: "absolute", top: 0,left: 0, width: "100%", height: "100%", border:0}}  loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=Power+Line+Junction%2C+Dutse-Abuja&output=embed">
+    <iframe title='demejus academy ' style={{position: "absolute", top: 0,left: 0, width: "100%", height: "100%", border:0}}  loading="lazy" src="https://maps.google.com/maps?q=Power+Line+Junction%2C+Dutse-Abuja&output=embed">
 
     </iframe></div>
     <a href="https://embeddablemap.com/"

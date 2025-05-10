@@ -54,9 +54,8 @@
 .footest>a{
     color:#f2f2f2;
 }
-.googlemap{
-    padding: 1rem;
-    background: #f2f2f2;
+.uli{
+    size: 10px;
 }
 .location{
     display: flex;

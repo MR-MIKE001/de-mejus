@@ -30,6 +30,7 @@
     visibility: hidden;
 }
 .menu2{
+    color: white;
     display: none;
 }
 @media (max-width:854px) {
@@ -61,19 +62,25 @@
         
     } 
     .menu2{
+        color:rgb(230, 223, 223);
+        width: 50px;
         display: block;
         margin-right: -2rem;
         margin-top: 0.3rem;
         padding:0 1px;
         height: 40px;
     }
+    
 }
 
 @media (max-width:500px) {
+    .nleft{
+        margin-left: 1rem;
+    }
     .nright{
         position: absolute;
         margin-top: -1rem;
-        margin-left: 14.2rem;
+        margin-left: 13rem;
        
        background-color: rgb(1, 1, 24);
 
@@ -82,6 +89,7 @@
     
     .nright>ul{
         margin-top: 2rem;
+        margin-left: -3rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -94,7 +102,7 @@
     }  
     .menu{
         display: block;
-        margin-right: -14.5rem;
+        margin-right: -13rem;
         margin-top: 0.3rem;
         padding:0 1px;
         height: 45px;
