@@ -20,10 +20,7 @@ function Aboutsec() {
      <div className='about2'>
 
         
-        <p>Head Teacher: **Vision Statement for De-Mejus Academy**
-At De-Mejus Academy, we envision a transformative educational environment that empowers every student to realize their fullest potential. Our commitment is to cultivate a diverse and inclusive community where academic excellence, creativity, and critical thinking thrive. We aspire to be a beacon of innovation in education, integrating cutting-edge technology with holistic learning experiences that prepare our students for the complexities of the global landscape.
-We aim to foster lifelong learners who are not only equipped with knowledge but also possess the skills necessary for effective communication, collaboration, and problem-solving. Our graduates will emerge as compassionate leaders who embrace diversity and champion social responsibility within their communities.
-Through partnerships with families, local organizations, and global networks, De-Mejus Academy seeks to create an enriching ecosystem that supports personal growth and encourages exploration beyond traditional boundaries.<a href='/about'>see more</a></p>
+        <p>Our Vision At De-Mejus Academy, we envision a vibrant learning community where every child is empowered to discover their potential, embrace curiosity, and thrive in an ever-changing world. We strive to shape compassionate, critical thinkers who lead with integrity, celebrate diversity, and make meaningful contributions to society. Our mission is to provide a nurturing, inclusive, and forward-thinking educational environment where students grow academically, socially, and emotionally. Through innovative teaching, strong values, and personalized learning, we equip students to lead with purpose, serve with compassion, and succeed with confidence.<a href='/about'>see more</a></p>
     
     <div className='aboutdiv'><img src={teacher}  alt='demejus academy head teacher' />
     <div className='named'><h1>Oghoghosa Akhianmiegbe</h1>
@@ -37,11 +34,9 @@ Through partnerships with families, local organizations, and global networks, De
     <h1 >Oghoghosa Akhianmiegbe</h1>
      <h3>Head Teacher of DE-MEJUS Academy</h3>
      </div></div>
-        <p >Head Teacher: **Vision Statement for De-Mejus Academy**
-At De-Mejus Academy, we envision a transformative educational environment that empowers every student to realize their fullest potential. Our commitment is to cultivate a diverse and inclusive community where academic excellence, creativity, and critical thinking thrive. We aspire to be a beacon of innovation in education, integrating cutting-edge technology with holistic learning experiences that prepare our students for the complexities of the global landscape.
-We aim to foster lifelong learners who are not only equipped with knowledge but also possess the skills necessary for effective communication, collaboration, and problem-solving. Our graduates will emerge as compassionate leaders who embrace diversity and champion social responsibility within their communities.
-Through partnerships with families, local organizations, and global networks, De-Mejus Academy seeks to create an enriching ecosystem that supports personal growth and encourages exploration beyond traditional boundaries. We envision our academy as a nurturing space where curiosity is ignited; talents are discovered; cultural heritage is celebrated; and every individual feels valued.
-Ultimately, our vision is to inspire future generations of thinkers and doers who will contribute positively to society while upholding the values of integrity, respect, empathy, and resilience. At De-Mejus Academy—where dreams take flight—we believe in shaping not just scholars but well-rounded individuals ready to make meaningful impacts in an ever-evolving world.
+        <p >Head Teacher: Our Vision
+At De-Mejus Academy, we envision a vibrant learning community where every child is empowered to discover their potential, embrace curiosity, and thrive in an ever-changing world.
+We strive to shape compassionate, critical thinkers who lead with integrity, celebrate diversity, and make meaningful contributions to society.
 <a href='/about'>see more</a></p>
      </div>
     </div>        

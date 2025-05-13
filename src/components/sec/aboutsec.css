@@ -8,10 +8,15 @@
     width: 500px;
     
  }
+ .mylist{
+    list-style-type: none;
+ }
  .ups{
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
     font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
  }
  .subups{
     margin-top: 0.2rem;

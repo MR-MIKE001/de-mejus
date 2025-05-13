@@ -41,7 +41,7 @@ export default function Contact() {
             >
 
             </textarea>
-            <button type='summit'  className='button '>sent</button>
+            <button type='summit'  className='button '>send</button>
             
         </form>
        

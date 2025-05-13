@@ -12,7 +12,7 @@
 }
 .bcimg{
     position: absolute;
-    opacity: 80%;
+    opacity: 60%;
     width: 100%;
     height: 600px;
 }
@@ -83,7 +83,7 @@
     .content>p{
         font-size: 15px;
         width: 500px;
-        margin-left: 2rem;
+        margin-left: 4rem;
         padding-top: 0.5rem;
     
     }
