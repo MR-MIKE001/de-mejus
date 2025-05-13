@@ -27,8 +27,8 @@ export default function Contact() {
     <div className='contact' id='contact'>
         <div className='c-left'>
             <div className='awesome'>
-                <span>get in touch</span>
-                <span className='it'>contact us</span>
+                <span className='GETIT'>get in touch</span>
+                <span className='it'>CONTACT US</span>
                 
      
             </div>

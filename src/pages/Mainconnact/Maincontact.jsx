@@ -7,7 +7,7 @@ import Google from '../../components/GoogleMap/Google'
 export default function Maincontact() {
   return (
     <div>
-        <Header Header="contact"/>
+        <Header Header="CONTACT"/>
         <Contact/>
         <Google/>
         <Footer/>

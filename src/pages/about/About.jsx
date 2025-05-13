@@ -8,7 +8,7 @@ import Sec from '../../components/sec/Aboutsec'
 export default function About() {
   return (
     <div>
-        <Header Header="about"/>
+        <Header Header="ABOUT"/>
       <Sec/>
         <Footer/>
     </div>

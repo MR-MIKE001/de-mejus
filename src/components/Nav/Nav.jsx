@@ -47,12 +47,12 @@ setvisible(false)
 </svg>
 
 </div>
-            <ul className='kk'>
-               <Link to="/" ><li>home</li></Link> 
-               <Link to="/about" ><li>about</li></Link> 
-               <Link to="/facilities"><li>facilities&clubs</li></Link> 
-               <Link to="/contact"><li>contacts</li></Link> 
-            </ul>
+        <ul className='kk'>
+               <Link to="/" ><li>Home</li></Link> 
+               <Link to="/about" ><li>About</li></Link> 
+               <Link to="/facilities"><li>Facilities&clubs</li></Link> 
+               <Link to="/contact"><li>Contacts</li></Link> 
+        </ul>
         </div>
     </div>
   )
